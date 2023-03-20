@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.js',
   // 번들링의 결과물을 output
   output: {
-    path: path.resolve(__dirname, 'dist'), // './dist'의 절대 경로를 리턴합니다.
+    path: path.resolve(__dirname, 'docs'), // './dist'의 절대 경로를 리턴합니다.
     filename: 'app.bundle.js',
   },
   module: {
